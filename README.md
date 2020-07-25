@@ -4,7 +4,7 @@ Chatbot is a method allowing the user to have a conversation with an automatic r
 
 * Information about the designer: the name, major, and skills of the designer will be displayed. For support, a link of the designer's works (drawing) will also be displayed since it was hard to display some of the work in the chat itself. ( https://danaadel9.wixsite.com/website-2) 
 * Information about the website: The purpose of the website will be demonstrated. 
-* Information about robots: General information about robots will be shown and a link of the designer's work can also be seen. 
+* Information about robots: General information about robots will be shown and a link of the designer's work can also be seen. (https://github.com/DanaAlesmael)
 * Controlling a robot: this part guids the robot by following a simple path of directions. 
 
 References: 
