@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            Dana's website
+        </title>
+        <style type = "text/css">
+        body{
+            background-image:url(back.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .content{
+            text-align: center;
+            color: blue;
+            font-size: 50px; 
+            font-weight: bold;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .blocK{
+            display: block;
+            width:80%;
+            border : none;
+            background-color: Lightgray;
+            padding: 14px 28px;
+            cursor: pointer;
+            text-align: center;
+            margin-left : auto;
+            margin-right: auto; 
+            font-size:20px; 
+            font-weight: bold;
+            color: blue;
+        }
+
+        </style>
+    </head>
+    <body>
+        <p type="write" class= "content"> Dana's Robotic controlling website
+        </p>
+
+        <img src = "3.jpg" alt ="website" class = "center">
+        <a href = "Start.html">
+           <button type = "button" class= "block">Start
+           </button>
+       </a>
+
+       <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "0e304e29-be9d-48d7-bd52-e44ff825411c", // The ID of this integration.
+            region: "us-south", // The region your integration is hosted in.
+            serviceInstanceID: "8d1e8fba-1948-4f67-8254-5ba68ebc4be4", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+      
+    </body>
+</html>
+
